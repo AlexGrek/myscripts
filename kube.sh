@@ -9,5 +9,5 @@ apt-add-repository "deb http://apt.kubernetes.io/ kubernetes-xenial main"
 apt install -y kubeadm kubelet kubectl
 
 swapoff -a
-echo "All installed!"
-echo "vim /etc/fstab"
+echo "All installed! Remove swap if exists:"
+echo "sudo vim /etc/fstab"
